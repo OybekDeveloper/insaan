@@ -2,7 +2,7 @@ import Hero from "@/components/shared/Hero";
 
 export default function Home() {
   return (
-    <main className="container mx-auto">
+    <main className="">
       <Hero
         image="homeImage.jpg"
         title="Все услуги для людей"
