@@ -57,7 +57,7 @@ export default function Hero({
       ></div>
 
       {/* Hero Content */}
-      <section className="w-10/12 mx-auto relative h-full py-10">
+      <section className="max-w-[1440px] w-11/12 mx-auto relative h-full py-10">
         {/* Title & description */}
         <div className="w-2/3 md:w-1/2 relative z-10 h-full flex justify-center items-start flex-col gap-4 text-black">
           <h1 className={`textBig3 max-sm:text-xl max-md:text-4xl font-bold text-${textColor}`}>

@@ -1,5 +1,9 @@
 // pages/index.js
 import Hero from "@/components/shared/Hero";
+import Architectural from "./_components/Architectural";
+import Services from "./_components/Services";
+import Reviews from "./_components/Reviews";
+import VideoContainer from "./_components/VideoContainer";
 
 export default function Home() {
   return (
@@ -16,7 +20,10 @@ export default function Home() {
         cardPosition="right-bottom"
         showCard={true}
       />
-      {/* Other content sections */}
+      <Architectural />
+      <Services/>
+      <Reviews/>
+      <VideoContainer/>
     </main>
   );
 }

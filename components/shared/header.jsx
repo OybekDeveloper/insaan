@@ -18,7 +18,7 @@ import { usePathname } from "next/navigation";
 export default function Header() {
   const pathname = usePathname();
   return (
-    <main className=" sticky top-0 left-0 w-full h-20">
+    <main className=" sticky top-0 left-0 w-full h-20 z-[900] bg-white">
       <section className="h-full flex justify-between items-center gap-4 container mx-auto w-11/12">
         <Sheet>
           <SheetTrigger className="lg:hidden w-2/3 sm:w-full cursor-pointer h-full">
@@ -26,7 +26,7 @@ export default function Header() {
               <AlignJustify />
             </div>
           </SheetTrigger>
-          <SheetContent side="left">
+          <SheetContent side="left" className={"z-[999]"}>
             <SheetHeader>
               <SheetTitle>Are you absolutely sure?</SheetTitle>
               <SheetDescription>
