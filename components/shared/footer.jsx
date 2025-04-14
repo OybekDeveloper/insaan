@@ -29,6 +29,7 @@ export default function Footer() {
               width={200}
               height={200}
               className="aspect-[5/3] max-w-sm"
+              loading="eager"
               quality={90}
             />
           </div>
